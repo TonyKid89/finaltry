@@ -20,13 +20,16 @@ public class GroupCreationTest {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://localhost/addressbook/group.php");
-        driver.findElement(By.id("LoginForm")).click();
+        login("admin", "secret");
+    }
+
+    private void login(String username, String password) {
         driver.findElement(By.name("user")).click();
         driver.findElement(By.name("user")).clear();
-        driver.findElement(By.name("user")).sendKeys("admin");
+        driver.findElement(By.name("user")).sendKeys(username);
         driver.findElement(By.name("pass")).click();
         driver.findElement(By.name("pass")).clear();
-        driver.findElement(By.name("pass")).sendKeys("secret");
+        driver.findElement(By.name("pass")).sendKeys(password);
         driver.findElement(By.cssSelector("input:nth-child(7)")).click();
     }
 
@@ -34,20 +37,40 @@ public class GroupCreationTest {
     @Test
     public void testGroupCreation() {
 
-        driver.findElement(By.linkText("groups")).click();
-        driver.findElement(By.name("new")).click();
+        goToGroupPage();
+        initGroupCreation();
+        fillGroupForm("test1", "test2", "test3");
+        submiGroupCreation();
+        returnToGroupPage();
+    }
+
+    private void returnToGroupPage() {
+        driver.findElement(By.linkText("group page")).click();
+    }
+
+    private void submiGroupCreation() {
+        driver.findElement(By.name("submit")).click();
+    }
+
+    private void fillGroupForm(String name, String header, String footer) {
         driver.findElement(By.name("group_name")).click();
         driver.findElement(By.name("group_name")).clear();
-        driver.findElement(By.name("group_name")).sendKeys("test1");
+        driver.findElement(By.name("group_name")).sendKeys(name);
         driver.findElement(By.name("group_header")).click();
         driver.findElement(By.name("group_header")).clear();
-        driver.findElement(By.name("group_header")).sendKeys("test2");
+        driver.findElement(By.name("group_header")).sendKeys(header);
         driver.findElement(By.name("group_footer")).click();
         driver.findElement(By.name("group_footer")).clear();
-        driver.findElement(By.name("group_footer")).sendKeys("test3");
+        driver.findElement(By.name("group_footer")).sendKeys(footer);
         driver.findElement(By.cssSelector("form:nth-child(2)")).click();
-        driver.findElement(By.name("submit")).click();
-        driver.findElement(By.linkText("group page")).click();
+    }
+
+    private void initGroupCreation() {
+        driver.findElement(By.name("new")).click();
+    }
+
+    private void goToGroupPage() {
+        driver.findElement(By.linkText("groups")).click();
     }
 
     @AfterMethod

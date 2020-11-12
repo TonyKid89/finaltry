@@ -62,10 +62,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/tonykid/addressbook/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="520">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
-                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,7 +211,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.QtTest.qt">
+  <component name="RunManager" selected="Gradle.GroupCreationTest.testGroupCreation">
+    <configuration name="GroupCreationTest.testGroupCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;qa.tonykid.addressbook.GroupCreationTest.testGroupCreation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="GroupCreation.Test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -273,6 +294,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupCreationTest.testGroupCreation" />
         <item itemvalue="Gradle.QtTest.qt" />
         <item itemvalue="Gradle.QtTest" />
         <item itemvalue="Gradle.GroupCreation.Test1" />
@@ -293,9 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QtTest - 2020.11.12 at 12h 38m 31s.xml">
-      <configuration name="QtTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="QtTest - 2020.11.12 at 12h 39m 41s.xml">
       <configuration name="QtTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -323,10 +342,12 @@
     <history-entry file="QtTest_qt - 2020.11.12 at 13h 05m 04s.xml">
       <configuration name="QtTest.qt" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="GroupCreationTest_testGroupCreation - 2020.11.12 at 16h 00m 55s.xml">
+      <configuration name="GroupCreationTest.testGroupCreation" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -347,7 +368,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.090618335" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -411,10 +432,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/tonykid/addressbook/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="520">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
-            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
           </folding>
         </state>
       </provider>

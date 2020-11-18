@@ -28,8 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/tonykid">
@@ -57,24 +56,30 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tonykid/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreation.java">
+        <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupDeletionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -94,8 +99,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tonykid/build.gradle" />
         <option value="$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreation.java" />
+        <option value="$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/tonykid/build.gradle" />
       </list>
     </option>
   </component>
@@ -115,9 +121,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1670" />
     <option name="height" value="980" />
   </component>
@@ -128,6 +134,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,42 +145,26 @@
             <path>
               <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
               <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
               <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
               <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tonykid" type="b2602c69:ProjectViewProjectNode" />
               <item name="tonykid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -181,17 +172,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tonykid" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GroupCreation.Test1">
+  <component name="RunManager" selected="TestNG.GroupCreationTest.testGroupCreation">
     <configuration name="GroupCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -246,8 +237,46 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GroupCreationTest.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tonykid.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa.tonykid.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa.tonykid.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="qa.tonykid.addressbook.GroupCreationTest" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tonykid.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa.tonykid.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa.tonykid.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="qa.tonykid.addressbook.GroupDeletionTest" />
+      <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationTest.testGroupCreation" />
+        <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
         <item itemvalue="Gradle.GroupCreation.Test1" />
         <item itemvalue="Gradle.GroupCreation" />
       </list>
@@ -267,46 +296,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreation_Test1 - 2020.11.11 at 22h 23m 57s.xml">
-      <configuration name="GroupCreation.Test1" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="GroupCreation - 2020.11.11 at 22h 25m 33s.xml">
       <configuration name="GroupCreation" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="GroupCreation_Test1 - 2020.11.11 at 22h 32m 54s.xml">
       <configuration name="GroupCreation.Test1" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="GroupCreation_Test1 - 2020.11.18 at 23h 38m 43s.xml">
+      <configuration name="GroupCreation.Test1" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreation_Test1 - 2020.11.18 at 23h 39m 45s.xml">
+      <configuration name="GroupCreation.Test1" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GroupCreationTest_testGroupCreation - 2020.11.18 at 23h 40m 22s.xml">
+      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest_testGroupDeletion - 2020.11.18 at 23h 40m 55s.xml">
+      <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest_testGroupDeletion - 2020.11.18 at 23h 41m 10s.xml">
+      <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest_testGroupCreation - 2020.11.18 at 23h 42m 41s.xml">
+      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest_testGroupCreation - 2020.11.18 at 23h 44m 16s.xml">
+      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest_testGroupCreation - 2020.11.18 at 23h 45m 55s.xml">
+      <configuration name="GroupCreationTest.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6770538" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33569404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.3295302" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.23489933" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,20 +378,34 @@
         <state relative-caret-position="-408" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tonykid/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tonykid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tonykid/src/test/java/qa/tonykid/addressbook/GroupCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

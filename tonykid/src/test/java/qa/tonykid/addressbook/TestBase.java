@@ -31,10 +31,10 @@ public class TestBase {
     }
 
     public void returnToGroupPage() {
-        wd.findElement(By.linkText("group page")).click();
+        wd.findElement(By.xpath("//*[@id=\"content\"]/div/i/a")).click();
     }
 
-    public void submiGroupCreation() {
+    public void submitGroupCreation() {
         wd.findElement(By.name("submit")).click();
     }
 
@@ -56,7 +56,7 @@ public class TestBase {
     }
 
     public void goToGroupPage() {
-        wd.findElement(By.linkText("groups")).click();
+        wd.findElement(By.xpath("//*[@id=\"nav\"]/ul/li[3]/a")).click();
     }
 
     @AfterMethod

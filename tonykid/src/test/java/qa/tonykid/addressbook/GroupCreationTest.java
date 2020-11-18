@@ -13,7 +13,7 @@ public class GroupCreationTest extends TestBase{
         goToGroupPage();
         initGroupCreation();
         fillGroupForm(new GroupData("test1", "test2", "test3"));
-        submiGroupCreation();
+        submitGroupCreation();
         returnToGroupPage();
     }
 
